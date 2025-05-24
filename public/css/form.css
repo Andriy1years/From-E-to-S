@@ -1,0 +1,44 @@
+ form {
+     display: flex;
+     position: absolute;
+     margin-top: 350px;
+     padding: 20px;
+     border-radius: 12px;
+     width: 300px;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 10px;
+     margin-left: 12px;
+ }
+
+ select,
+ input[type="number"] {
+     width: 100px;
+     padding: 8px;
+     border-radius: 6px;
+     border: none;
+     margin-top: 4px;
+     background-color: #163426;
+     color: white;
+ }
+
+ button {
+     position: absolute;
+     margin-left: -5px;
+     margin-top: 50px;
+     width: 80%;
+     padding: 10px;
+     background-color: #2b704f;
+     color: white;
+     border: none;
+     border-radius: 8px;
+     font-weight: bold;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ button:hover {
+     background-color: #3a9a6b;
+ }

@@ -1,0 +1,31 @@
+ body {
+    
+
+    }
+
+    .checkbox-wrapper {
+      position: relative;
+      width: 15px;
+      height: 15px;
+      border: 2px solid white;
+      border-radius: 6px;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .checkmark {
+      position: absolute;
+      width: 5px;
+      height: 13px;
+      border: solid rgb(255, 255, 255);
+      border-width: 0 3px 3px 0;
+      transform: rotate(45deg);
+      top: -5px;
+      right: -0px;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .checkbox-wrapper.checked .checkmark {
+      opacity: 1;
+    }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From E to S</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/check-box.css">
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body class="bg-gradient-to-br from-pink-200 to-purple-300 min-h-screen flex items-center justify-center">
+    <div class="form" id="form">
+        <div class="text">
+            <h3 class="trane">push-ups</h3>
+            <h3 class="trane">sit-ups</h3>
+            <h3 class="trane">squats</h3>
+            <h3 class="trane">running</h3>
+        </div>
+        <div class="tyn">
+            <h4 id="push">[0/100]</h4>
+            <h4 id="sit">[0/100]</h4>
+            <h4 id="sq">[0/100]</h4>
+            <h4 id="run">[0/10]</h4>
+        </div>
+        <div class="check-box">
+            <div class="checkbox-wrapper" id="myCheckbox">
+                <div class="checkmark"></div>
+            </div>
+            <div class="checkbox-wrapper" id="myCheckbox">
+                <div class="checkmark"></div>
+            </div>
+            <div class="checkbox-wrapper" id="myCheckbox">
+                <div class="checkmark"></div>
+            </div>
+            <div class="checkbox-wrapper" id="myCheckbox">
+                <div class="checkmark"></div>
+            </div>
+        </div>
+        <form>
+            <!-- Выпадайка -->
+            <label>
+                <select name="option">
+                    <option value="1">push-ups</option>
+                    <option value="2">sit-ups</option>
+                    <option value="3">squats</option>
+                    <option value="4">running</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Число -->
+            <label>
+                <input type="number" name="number">
+            </label>
+            <br><br>
+
+            <!-- Кнопка -->
+            <button type="submit">Отправить</button>
+        </form>
+
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
