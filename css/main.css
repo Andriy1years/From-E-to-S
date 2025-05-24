@@ -1,6 +1,6 @@
 body {
     background-image: url(image.png);
-    font-family: cursive;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,10 +48,10 @@ h4 {
 
 .check-box {
     position: absolute;
-    margin-top: 53px;
+    margin-top: 52px;
     margin-right: 30px;
     right: 0;
 }
 .checkbox-wrapper {
-    margin-bottom: 21px;
+    margin-bottom: 19px;
 }
